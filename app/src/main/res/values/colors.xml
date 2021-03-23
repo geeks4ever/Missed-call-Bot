@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Praveen Kumar for Message-Bot.
+  ~ Copyright (c) 2021.
+  ~ Last modified on 21/3/21 7:51 PM.
+  ~
+  ~ This file/part of Message-Bot is OpenSource.
+  ~
+  ~ Message-Bot is a free software: you can redistribute it and/or modify it under the
+  ~ terms of the GNU General Public License as published by the Free Software Foundation,
+  ~ either version 3 of the License, or (at your option) any later version.
+  ~
+  ~ Message-Bot is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along with Message-Bot.
+  ~ If not, see http://www.gnu.org/licenses/.
+  -->
+
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="on_color_lite">#A7FFEB</color>
+    <color name="off_color_lite">#FF8A80</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="on_color">#00796B</color>
+    <color name="off_color">#FFCDD2</color>
+    <color name="lite_grey">#B0BEC5</color>
+
+    <color name="text_fill">#000000</color>
+
+
+</resources>

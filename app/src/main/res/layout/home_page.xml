@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Praveen Kumar for Message-Bot.
+  ~ Copyright (c) 2021.
+  ~ Last modified on 21/3/21 7:54 PM.
+  ~
+  ~ This file/part of Message-Bot is OpenSource.
+  ~
+  ~ Message-Bot is a free software: you can redistribute it and/or modify it under the
+  ~ terms of the GNU General Public License as published by the Free Software Foundation,
+  ~ either version 3 of the License, or (at your option) any later version.
+  ~
+  ~ Message-Bot is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  ~ See the GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along with Message-Bot.
+  ~ If not, see http://www.gnu.org/licenses/.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/home_page_on_off_button"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/round_rect_on_lite">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/home_page_bot_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/bot_on"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/home_page_on_off_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ON"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap to ON/OFF"
+                    android:layout_marginTop="6dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_page_modes_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/home_page_add_mode_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="10dp"
+        app:icon="@drawable/add_icon"
+        android:text="add new mode"
+        android:foreground="?attr/selectableItemBackground"
+        app:rippleColor="@color/teal_700"
+        android:background="@drawable/round_rect"
+        app:iconTint="@color/text_fill"
+        android:textColor="@color/text_fill"
+        android:clickable="true"
+        android:focusable="true"/>
+
+<!--        android:outlineAmbientShadowColor="@color/teal_200"-->
+<!--        android:outlineSpotShadowColor="@color/teal_200"-->
+
+
+</FrameLayout>
