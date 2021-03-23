@@ -1,11 +1,3 @@
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 <h1 align="center">
   <a href="https://github.com/geeks4ever/Missed-call-Bot"><img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/app/src/main/res/drawable/bot_on.png?raw=true" alt="Geeky Missed call Bot" width="200" style="margin-bottom:0.3cm"></a>
 	
@@ -41,8 +33,10 @@
 <br>
 <br>
 
-<img class="center" src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample1.png?raw=true" alt="screenshot1">
-<img class="center" src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample2.png?raw=true" alt="screenshot2">
+<p align="center">
+<img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample1.png?raw=true" alt="screenshot1">
+<img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample2.png?raw=true" alt="screenshot2">
+</p>
 
 <br>
 <br>
