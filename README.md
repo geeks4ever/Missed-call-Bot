@@ -1,15 +1,7 @@
 <h1 align="center">
-  <br>
-  <a 
-  
-  href="https://github.com/geeks4ever/Missed-call-Bot">
-  
-  <img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/app/src/main/res/drawable/bot_on.png?raw=true" alt="Geeky Missed call Bot" width="200" style="margin-bottom:0.3cm"></a>
-  
-  
-  <br>
+  <a href="https://github.com/geeks4ever/Missed-call-Bot"><img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/app/src/main/res/drawable/bot_on.png?raw=true" alt="Geeky Missed call Bot" width="200" style="margin-bottom:0.3cm"></a>
+	
   **Geeky Missed call Bot**
-  <br>
 </h1>
 
 <h4 align="center">An android app that responds to missed calls with SMS.</h4>
@@ -39,7 +31,6 @@
 </p>
 
 <br>
-***
 <br>
 
 
@@ -48,14 +39,14 @@
 ![screenshot2](https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample2.png?raw=true)
 
 <br>
-***
 <br>
 
 
 ## Key Features
 
 <br>
-* **Create any number of message templates**
+
+- **Create any number of message templates**
   - You can create any number of messages templates with seperate name for each of them.
 * **Turn the Bot ON and OFF with ease**
   - Simply tap the bot icon in the homepage to turn on and turn off the bot.
@@ -64,7 +55,6 @@
 * **Simple minimalistic design**
 
 <br>
-***
 <br>
 
 ## Dependencies
@@ -89,7 +79,6 @@ debugImplementation 'com.amitshekhar.android:debug-db:1.0.6'
 ```
 
 <br>
-***
 <br>
 
 
@@ -99,7 +88,6 @@ You can download the latest version of Missed call Bot from the Releases section
 [Click here to Download](https://github.com/geeks4ever/Missed-call-Bot/releases/download/v1.0/message.bot.apk)
 
 <br>
-***
 <br>
 
 ## Credits
@@ -112,7 +100,6 @@ This software uses the following open source packages:
 - [Android Debug Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
 
 <br>
-***
 <br>
 
 ## License
@@ -130,9 +117,6 @@ See the GNU General Public License for more details.You should have received a c
 > GitHub [@praveenkumar-programmer](https://github.com/praveenkumar-programmer)
 
 > Email [praveenkumar.programmer@gmail.com](https://https://mail.google.com/)
-
-<br>
-***
 
 <br>
 <br>
