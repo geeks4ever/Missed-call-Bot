@@ -34,8 +34,8 @@
 <br>
 
 <p align="center">
-<img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample1.png?raw=true" alt="screenshot1">
-<img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample2.png?raw=true" alt="screenshot2">
+<img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample1.png?raw=true" alt="screenshot1" width="300">
+<img src="https://github.com/geeks4ever/Missed-call-Bot/blob/master/sample2.png?raw=true" alt="screenshot2" width="300">
 </p>
 
 <br>
